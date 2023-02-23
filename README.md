@@ -1,27 +1,44 @@
-# Next.js + Tailwind CSS Example
+#
+# Welcome to Geelyrics App
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+### Features
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+Get the lyrics of any track using Genius API from RapidAPI Hub.
 ```
 
+## Installation
+
+1. Download the Gee lyrics-app directory.
+
+2. Unzip the downloaded file and navigate to the working directory.
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+cd RapidAPI\ DevRel-Examples-External\ main\ Geelyrics-app/
 ```
-
+3. Install dependencies
 ```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+npm install
 ```
+4. Create .env.local file in root and add your RapidAPI key.
+```bash
+NEXT_PUBLIC_RAPIDAPI_KEY=YOUR_RAPID_API_KEY
+```
+Run the app
+```bash
+npm run dev
+```
+You are all set! Open localhost:3000 to see the app
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+none

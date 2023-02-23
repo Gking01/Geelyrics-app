@@ -24,7 +24,7 @@ npm install
 ```bash
 NEXT_PUBLIC_RAPIDAPI_KEY=YOUR_RAPID_API_KEY
 ```
-Run the app
+5. Run the app
 ```bash
 npm run dev
 ```
